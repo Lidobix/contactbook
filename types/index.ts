@@ -2,6 +2,7 @@ export interface Contact {
   id: number;
   lastName: string;
   firstName: string;
-  gender: 'male' | 'female' | 'other';
+  gender: 'Homme' | 'Femme' | 'Autre';
   size: number;
+  birth: string;
 }

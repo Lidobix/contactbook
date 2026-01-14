@@ -16,6 +16,7 @@ const RawCard = ({ contact, updateContact, deleteContact }: CardProps) => {
         <p>Nom: {contact.lastName}</p>
         <p>Genre: {contact.gender}</p>
         <p>Taille: {contact.size}</p>
+        <p>Date de naissance: {contact.birth}</p>
       </div>
 
       <div className={styles.button_container}>

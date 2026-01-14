@@ -7,7 +7,7 @@ export interface BookContextType {
   contacts: Contact[];
   addContact: () => void;
   deleteContact: (contact: Contact) => void;
-  updateContact: (id: number) => void;
+  updateContact: (contact: Contact) => void;
   isLoading: boolean;
 }
 
@@ -35,9 +35,7 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
     setContacts(updatedContacts);
   };
 
-  const updateContact = (id: number) => {
-    console.log('modify', id);
-  };
+  const updateContact = (requestedContact: Contact) => {};
 
   const fetchContacts = () => {
     setContacts(ALL_CONTACTS);

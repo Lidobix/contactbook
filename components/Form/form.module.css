@@ -1,0 +1,17 @@
+.main_container {
+  position: absolute;
+  border: 1px solid black;
+  padding: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+
+.input {
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
