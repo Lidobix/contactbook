@@ -1,0 +1,11 @@
+.main_container {
+  background-color: rgb(216, 208, 197);
+  padding: 30px;
+}
+
+.loading_text {
+  color: red;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+}

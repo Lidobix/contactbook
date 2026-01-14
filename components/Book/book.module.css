@@ -1,0 +1,11 @@
+.main_container {
+  background-color: azure;
+  border: 1px solid black;
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
