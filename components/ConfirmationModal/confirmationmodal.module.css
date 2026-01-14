@@ -1,0 +1,18 @@
+.main_container {
+  position: absolute;
+  border: 1px solid red;
+  padding: 10px;
+  color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: rgb(224, 228, 167);
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
